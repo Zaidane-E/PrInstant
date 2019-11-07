@@ -89,11 +89,6 @@ body {
     -o-user-select: none;*/
   }
   
-  .open-button:hover {
-    background-color: transparent;
-    animation-fill-mode: forwards;
-  }
-  
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #toggle {
     transition: margin-left .5s; /* If you want a transition effect */
