@@ -18,3 +18,12 @@ function toggle_menu() {
 
 
 // == PRELOADER SECTION ==
+
+function prepare_page() {
+  document.getElementById("page").style.display = "block";
+  document.getElementById("preloader").style.display = "none"
+}
+
+function display() {
+  setTimeout(function(){ prepare_page(); },2300);
+}
