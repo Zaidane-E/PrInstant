@@ -2,20 +2,34 @@
 
 body {
   background-color: #243447;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 .section {
   text-align: center;
+  color: white;
+  justify-content: center;
+  justify-items: center;
+}
+
+/*Homepage*/
+#home {
+  font-size: 12px;
 }
 
 #goto-button {
-  font-size: 5rem;
-  padding: 10px;
-  box-shadow: 5px 5px 5px 0px rgb(41, 37, 37);
-  background-color: #c51f5d;
-  outline: black;
+  color: white;
+  font-size: 20px;
+  padding: 5px 5px;
+  box-shadow:  0px 0px 5px 5px rgba(0, 0, 0, .5);
+  background-color: transparent;
+  outline: none;
+  border-color: transparent;
   user-select: none;
+}
+
+#goto-button:hover {
+  background-color: violet;
 }
 
 /* == SIDE MENU SECTION == (COLLAPSE/EXPAND, FONTS, ANIMATIONS, COLORS ETC.) == */
@@ -122,6 +136,8 @@ body {
   width: 700px;
   height: 170px;
   border: 16px solid #ffffff;
+  user-select: none;
+  outline: none;
   animation: transitionOut 1s;
   animation-delay: 1300ms;
   animation-fill-mode: forwards;
