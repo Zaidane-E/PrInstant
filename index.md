@@ -3,7 +3,7 @@
     PrInstant
 </head>
 
-<body>
+<body id="page">
 
     <header>
         PrInstant Website

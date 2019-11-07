@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<head>
+
+<title>
     PrInstant
-</head>
+</title>
 
 <body>
+        <div id="preloader">
+                <div id="prinstant-white">PR</div>
+                <div id="prinstant-red">INSTANT</div>
+                <div id="top-bar"></div>
+                <div id="left-bar"></div>
+                <div id="right-bar"></div>
+                <div id="bottom-bar-left"></div>
+                <div id="bottom-bar-right"></div>
+              </div>
+              <div id="page" style="display: none;">
 
-    <header>
-        PrInstant Website
-    </header>
+    <div id="preloader" style="display: none;">
+        <div id="prinstant-white">PR</div>
+        <div id="prinstant-red">INSTANT</div>
+        <div id="top-bar"></div>
+        <div id="left-bar"></div>
+        <div id="right-bar"></div>
+        <div id="bottom-bar-left"></div>
+        <div id="bottom-bar-right"></div>
+    </div>
+
+    <div class="side-menu" id="sidebar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Pricing</a>
+        <a href="#">Team</a>
+        <a href="#">FAQ</a>
+    </div>
+
+    <div id="main">
+        <button id="open-button" class="open-button" onclick="toggle_menu()">&#9776;</button>
+    </div>
+
+    <!--All CSS3 and JavaScript-->
+
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+    <script src="side_menu.js"></script>
 
 </body>
