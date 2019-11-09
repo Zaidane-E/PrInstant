@@ -3,7 +3,8 @@
 <!--All CSS3 and JavaScript-->
 
 <link rel="stylesheet" type="text/CSS" href="style.css">
-<script src="main.js"></script>
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 
 <title>
@@ -23,22 +24,23 @@
     <div id="prinstant-red">INSTANT</div>
 </div>
 
-<div id="page" style="display: none;">
 
   <!--SIDEBAR SECTION-->
   <div class="side-menu" id="sidebar">
     <img src="images/Logo.png" alt="PrInstant" id="logo">
-    <a href="#home" class="active">Home</a>
-    <a href="#features">Features</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#team">Team</a>
-    <a href="#faq">FAQ</a>
+    <a href="#home" class="active, scroll">Home</a>
+    <a href="#features" class="scroll">Features</a>
+    <a href="#pricing" class="scroll">Pricing</a>
+    <a href="#team" class="scroll">Team</a>
+    <a href="#faq" class="scroll">FAQ</a>
   </div>
 
   <div id="toggle">
     <button id="open-button" class="open-button" onclick="toggle_menu()">&#9776;</button>
   </div>
 
+
+<div id="page" style="display: none;">
 
   <!--HOMEPAGE SECTION-->
   <div class="section" id="home">
