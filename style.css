@@ -49,6 +49,7 @@ body {
 .side-menu {
     width: 200px;
     outline: none;
+    user-select: none;
 }
 
 .side-menu a {
@@ -58,7 +59,6 @@ body {
     padding: 12px;
     text-decoration: none;
     font-weight: bold;
-    user-select: none;
   }
   
   .side-menu a:hover {

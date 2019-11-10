@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 
-<!--All CSS3 and JavaScript-->
-
-<link rel="stylesheet" type="text/CSS" href="style.css">
-<script src="app.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-
 <head>
+
   <title>
     PrInstant
   </title>
+
+  <!-- All CSS3, JavaScript and Jquery -->
+  <link rel="stylesheet" type="text/CSS" href="style.css">
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
 </head>
 
 <body onload="display()">
@@ -36,14 +37,14 @@
 
 
   <!--SIDEBAR SECTION-->
-  <div class="side-menu" id="sidebar">
+  <nav class="side-menu" id="sidebar">
     <img src="images/Logo.png" alt="PrInstant" id="logo">
-    <a href="#home" class="active, scroll">Home</a>
-    <a href="#features" class="scroll">Features</a>
-    <a href="#pricing" class="scroll">Pricing</a>
-    <a href="#team" class="scroll">Team</a>
-    <a href="#faq" class="scroll">FAQ</a>
-  </div>
+    <a href="#home" class="nav-link scroll">Home</a>
+    <a href="#features" class="nav-link scroll">Features</a>
+    <a href="#pricing" class="nav-link scroll">Pricing</a>
+    <a href="#team" class="nav-link scroll">Team</a>
+    <a href="#faq" class="nav-link scroll">FAQ</a>
+  </nav>
 
   <div id="toggle">
     <button id="open-button" class="open-button" onclick="toggle_menu()">&#9776;</button>
