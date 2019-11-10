@@ -8,7 +8,7 @@
 
 
 <title>
-    PrInstant
+  PrInstant
 </title>
 
 <body onload="display()">
@@ -25,6 +25,12 @@
 </div>
 
 
+<div id="page" style="display: none;">
+
+  <!--TOPBAR SECTION-->
+  <div id='heading'></div>
+
+
   <!--SIDEBAR SECTION-->
   <div class="side-menu" id="sidebar">
     <img src="images/Logo.png" alt="PrInstant" id="logo">
@@ -39,8 +45,6 @@
     <button id="open-button" class="open-button" onclick="toggle_menu()">&#9776;</button>
   </div>
 
-
-<div id="page" style="display: none;">
 
   <!--HOMEPAGE SECTION-->
   <div class="section" id="home">
