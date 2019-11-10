@@ -23,7 +23,7 @@ function toggle_menu() {
 
 function prepare_page() {
   document.getElementById("page").style.display = "block";
-  document.getElementById("preloader").style.display = "none"
+  document.getElementById("preloader").style.display = "none";
 }
 
 function display() {
@@ -44,4 +44,5 @@ $(document).ready(function() {
       scrollTop: $(this.hash).offset().top
     }, 1000 );
   });
+  
 })

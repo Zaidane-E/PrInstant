@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 
-<!--All CSS3 and JavaScript-->
+<head>
 
-<link rel="stylesheet" type="text/CSS" href="style.css">
-<script src="app.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>
+    PrInstant
+  </title>
 
+  <!-- All CSS3, JavaScript and Jquery --> 
+  <link rel="stylesheet" type="text/CSS" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="app.js"></script>
 
-<title>
-  PrInstant
-</title>
+</head>
 
 <body onload="display()">
 
@@ -28,19 +29,21 @@
 
 <div id="page" style="display: none;">
 
-  <!--TOPBAR SECTION-->
-  <div id='heading'></div>
+  <!--HEADING SECTION-->
+  <div id='heading'>
+    <h1></h1>
+  </div>
 
 
   <!--SIDEBAR SECTION-->
-  <div class="side-menu" id="sidebar">
-    <img src="images/Logo.png" alt="PrInstant" id="logo">
-    <a href="#home" class="active, scroll">Home</a>
+  <nav class="side-menu" id="sidebar">
+    <a href="#home" class="scroll"><img src="images/Logo.png" alt="PrInstant" id="logo"></a>
+    <a href="#home" class="scroll">Home</a>
     <a href="#features" class="scroll">Features</a>
     <a href="#pricing" class="scroll">Pricing</a>
     <a href="#team" class="scroll">Team</a>
     <a href="#faq" class="scroll">FAQ</a>
-  </div>
+  </nav>
 
   <div id="toggle">
     <button id="open-button" class="open-button" onclick="toggle_menu()">&#9776;</button>
@@ -55,8 +58,6 @@
     <a href="https://github.com/9-10-21/9-10-21_Info">GitHub</a>
     <a href="https://twitter.com/Andy13624945">Twitter</a>
     <a href="#">Facebook</a>
-    <br>
-    <button id="goto-button">FEATURES</button>
   </div>
 
 
